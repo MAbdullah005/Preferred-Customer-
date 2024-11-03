@@ -1,15 +1,14 @@
 #include <iostream>
 #include <string>
 
-class PersonData {
-private:
-    string lastName;
-    string firstName;
-    string address;
-    string city;
-    string state;
-    string zip;
-    string phone;
+class PersonData :
+   private string lastName;
+   private string firstName;
+   private string address;
+   private string city;
+   private string state;
+   private   string zip;
+   private string phone;
 
 public:
     string getLastName() const 
